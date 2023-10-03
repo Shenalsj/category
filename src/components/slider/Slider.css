@@ -1,0 +1,33 @@
+.carasoul-style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.CarouselContainer {
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+.Carousel {
+  max-width: 100%;
+  max-height: 400px;
+  width: 100%;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.Carousel .slide {
+  background: transparent;
+  padding: 0;
+}
+.Carousel .slide img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  border-radius: 5px !important;
+}
+.Carousel .control-dots {
+  bottom: 15px;
+}/*# sourceMappingURL=Slider.css.map */

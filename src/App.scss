@@ -1,0 +1,48 @@
+.App{
+    
+    /* App.scss */
+    
+    .app-header {
+        background-color: #333; /* Background color for the header */
+        padding: 10px 0; /* Add padding to the top and bottom */
+      
+        nav {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+      
+          a {
+            color: white; /* Text color for navigation links */
+            text-decoration: none;
+            padding: 10px 20px; /* Add padding to the navigation links */
+            transition: background-color 0.3s; /* Smooth transition for background color */
+            border-radius: 5px; /* Rounded corners for the links */
+      
+            &:hover {
+              background-color: #555; /* Background color on hover */
+            }
+      
+            // &.home-link {
+            //   /* Customize styles for the Home link */
+            // }
+      
+            // &.product-link {
+            //   /* Customize styles for the Products link */
+            // }
+          }
+        }
+      
+        @media (max-width: 768px) {
+          /* Media query for responsive design */
+          nav {
+            flex-direction: column; /* Stack links vertically on small screens */
+      
+            a {
+              width: 100%; /* Make links take up full width */
+              text-align: center; /* Center-align text on small screens */
+            }
+          }
+        }
+      }
+      
+    }

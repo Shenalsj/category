@@ -1,0 +1,21 @@
+/* ProductList.scss */
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 10px;
+}
+.pagination{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 20px;
+}
+
+/* For responsiveness, you can use media queries to adjust the number of columns */
+@media (max-width: 768px) {
+  .product-list {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
+  }
+}
